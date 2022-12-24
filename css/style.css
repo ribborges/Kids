@@ -3,48 +3,66 @@
 
 body{
 	background: #95C9FF;
-	background-image: url(../wallpaper.png);
+	background-image: url(https://images.pexels.com/photos/310452/pexels-photo-310452.jpeg);
+	background-position: center;
+	background-size: cover;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 }
 
 header{
-	background: #F7A8F9;
+	background: #f8a8f972;
 	color: #FFFFFF;
 	width: 80%;
 	height: 140px;
 	text-align: center;
 	margin: 0 auto;
+	backdrop-filter: blur(5px);
+	border-radius: 20px;
+	border: solid 2px #c152c372;
 }
 
 nav{
-	background: #B5EC8F;
+	background: #B5EC8F72;
 	color: #FFFFFF;
 	width: 80%;
-	height: 40px;
+	height: auto;
 	margin: 0 auto;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	backdrop-filter: blur(5px);
+	border: solid 2px #79c24472;
+	border-bottom: none;
 }
 
 section{
-	background: #FFFFFF;
+	background: #FFFFFF72;
 	color: #3E3805;
 	width: 80%;
 	height: 600px;
 	margin: 0 auto;
 	text-align: center;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	backdrop-filter: blur(5px);
+	border: solid 2px #8f8f8f72;
+	border-top: none;
 }
 
 footer{
-	background: #2E2E2E;
+	background: #2E2E2E72;
 	color: #FFFFFF;
 	text-align: center;
 	align-items: center;
 	width: 80%;
 	height: 40px;
 	margin: 0 auto;
+	border-radius: 20px;
+	backdrop-filter: blur(5px);
+	border: solid 2px #35353572;
 }
 
 .btn {
-	background-color: #B5EC8F;
+	background-color: transparent;
     border: none;
     color: #08133F;
     padding: 12px 28px;
@@ -54,6 +72,8 @@ footer{
     font-size: 14px;
 	-webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
+	margin: 10px;
+	border-radius: 20px;
 }
 
 .btn:hover {

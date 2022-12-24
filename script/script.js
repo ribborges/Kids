@@ -43,12 +43,10 @@ function atualizaTela(){
 
 function comeca(){
 	iniciaJogo();
-	iniciaJogo();
 }
 
 function iniciaJogo() {
 	var c=document.getElementById("canvasing");
-	alert("Iniciando game")
 	ctx=c.getContext("2d");
 	
 	var img = new Image();
@@ -68,7 +66,6 @@ function iniciaJogo() {
 			nmatriz++;
 		}
 	}
-	
 }
 
 function clique(event){
